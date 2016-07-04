@@ -4,7 +4,7 @@ defmodule QuizBoard.Mixfile do
   def project do
     [app: :quiz_board,
      version: "0.0.1",
-     elixir: "~> 1.2",
+     elixir: "~> 1.3",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      deps: deps]
@@ -15,6 +15,6 @@ defmodule QuizBoard.Mixfile do
   end
 
   defp deps do
-    [{:elixir_ale, "~> 0.5.2"}]
+    [{:elixir_ale, "~> 0.5.5"}]
   end
 end
